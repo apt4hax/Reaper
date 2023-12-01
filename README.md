@@ -3,7 +3,7 @@ Reaper is a comprehensive OSINT tool desinged to scrape linkedin, perform additi
 ## Whats Inside
 - LinkedIn data scraping (`lottali_main`)
 - Name processing and potential email generation (`mangler_main`)
-- Running `nuclei` and `amass` for network-related operations (`getmorekeywrds_main`)
+- Running `nuclei` and `amass` for employee social media accounts & amass for subdomain enumeration (`getmorekeywrds_main`)
 - GitHub code search automation (`gitgalaxy_main`)
 - Automated Google searches with specific parameters (`youdork_main`)
 ## Prerequisites
