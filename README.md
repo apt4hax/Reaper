@@ -12,10 +12,10 @@ Reaper is a comprehensive OSINT tool desinged to scrape linkedin, perform additi
 - ChromeDriver (compatible with the installed Chrome version)
 ## Install
 - Use a python virtual enviroment for this script 
-```git clone https://github.com/apt4hax/Reaper.git```
-```cd Reaper```
-```virtualenv -p $(which python3) .venv && source .venv/bin/activate```
-```python3 -m pip install -r requirments.txt```
+- ```git clone https://github.com/apt4hax/Reaper.git```
+- ```cd Reaper```
+- ```virtualenv -p $(which python3) .venv && source .venv/bin/activate```
+- ```python3 -m pip install -r requirments.txt```
 ## Configuration
 - Update `linkedin_username` and `linkedin_password` in `reaper.py` with your LinkedIn credentials.
 - Ensure the paths in the scripts are correctly set according to your environment.
