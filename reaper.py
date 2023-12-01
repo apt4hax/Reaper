@@ -5,6 +5,41 @@ from mangler_main import mangler_main
 from getmorekeywrds_main import getmorekeywrds_main
 from gitgalaxy_main import gitgalaxy_main
 from youdork_main import youdork_main
+def print_ascii_art():
+    grim_reaper_art = """
+                                                                                                        
+                                                ,*/                                                 
+                                         #@@/ %@@@@%                                                
+                                 .#@(/,           %@,@@@@@(                                         
+                              %@                  @@@#&&@@@@@                                       
+                                                .%.@@%%@@@%(@.,                                     
+                                              @%.% *&&,/%*/*(@                                      
+                                             @,%@@  #.@, /@,                                        
+                                            %%&&@#@@ *@.%                                           
+                                           @(&%@@ @// @&                                            
+                                           @* %&@  ,   *%                                           
+                                           @,@@%@#,   #/  @                                         
+                                           @(&(@/(&@#%#%@&,                                         
+                                           @@&&%( (%&@@@(.%%                                        
+                                           @ @@#&%@@@@#/ %#*((                                      
+                                          /(&/ @&@@ @@  @@.*                                        
+                                          @  @    &  &@@@  (*%                                      
+                                              ( @.%&(&* .   /%*                                     
+                                         ( & %,/*,(.   #  %   (                                     
+                                        ,#%#.%/.%*     %@/@  #                                      
+                                       ../.%%,%,*   .% #%&&   @                                     
+                                      #&@&@,(%&  @ *@(/#* (@   /                                    
+                                    ,(@./%.&*& %@%@@&&%&  @@   @                          Your code belongs to me """
+    reaper_text = """
+                            ██████╗ ███████╗ █████╗ ██████╗ ███████╗██████╗ 
+                            ██╔══██╗██╔════╝██╔══██╗██╔══██╗██╔════╝██╔══██╗
+                            ██████╔╝█████╗  ███████║██████╔╝█████╗  ██████╔╝
+                            ██╔══██╗██╔══╝  ██╔══██║██╔═══╝ ██╔══╝  ██╔══██╗
+                            ██║  ██║███████╗██║  ██║██║     ███████╗██║  ██║
+                            ╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝╚═╝     ╚══════╝╚═╝  ╚═╝ 
+    Author: apt4hax
+    version: 0.0.1
+    """
 
 def main():
     parser = argparse.ArgumentParser(description="This tool is designed to help automate OSINT with associated company code repos")
