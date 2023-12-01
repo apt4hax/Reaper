@@ -1,5 +1,5 @@
 # Reaper
-Reaper is a comprehensive OSINT tool desinged to scrape linkedin, perform additional user and domain enumeration, then perform google and github dorking for related code repositories. 
+Reaper is a comprehensive OSINT Bot desinged to use Selenium WebDriver to open a browser and scrape linkedin, then perform additional user and domain enumeration, then perform google and github dorking for related code repositories. This tool is done in an open browser will set sleep timers to help defeate anti-botting protections, combined with the Github api key rate limit of 60 requests an hour this tool is truley a slow burn. 
 ## Whats Inside
 - LinkedIn data scraping (`lottali_main`)
 - Name processing and potential email generation (`mangler_main`)
@@ -21,4 +21,9 @@ Reaper is a comprehensive OSINT tool desinged to scrape linkedin, perform additi
 - Ensure the paths in the scripts are correctly set according to your environment.
 - create a .auth folder and store your github apikey as github.keys
 ## Usage
-```python reaper.py --company [COMPANY_NAME] --domain [DOMAIN_NAME]```
+-```python reaper.py --company [COMPANY_NAME] --domain [DOMAIN_NAME]```
+- Add additional keyworks in a line by line text file in the key directory any item in the key directory will be used in the search/dorking functionality. 
+## Development plans
+- Improve anti-botting tehniques
+- Find a way to speed er up a bit
+
